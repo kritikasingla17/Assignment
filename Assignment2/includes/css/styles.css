@@ -1,0 +1,177 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+   #menu{
+      padding-top:20px;
+   }
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel .item{
+   height: 338px;
+}
+#myCarousel{
+   margin-top: 90px;
+}
+#slide1{
+   background:url('../../images/main_md_1.jpg') top center no-repeat;
+}
+#slide2{
+   background:url('../../images/main_md_2.jpg')top center no-repeat;
+}
+#slide3{
+   background:url('../../images/main_md_3.jpg')top center no-repeat;
+}
+#slide4{
+   background:url('../../images/main_md_4.jpg')top center no-repeat;
+}
+
+#myCarousel1 .item{
+   height: 338px;
+}
+#myCarousel1{
+   margin-top: 60px;
+}
+#slide5{
+   background:url('../../images/carosel_md_1.jpg') top center no-repeat;
+}
+#slide6{
+   background:url('../../images/carosel_md_2.jpg')top center no-repeat;
+}
+#slide7{
+   background:url('../../images/carosel_md_3.jpg')top center no-repeat;
+}
+#slide8{
+   background:url('../../images/carosel_md_4.jpg')top center no-repeat;
+}
+#slide9{
+   background:url('../../images/carosel_md_5.jpg')top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+body{
+   font-family: sans-serif;
+}
+.well{
+   background-color: WHITE;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#myCarousel .item{
+   height: 281px;}
+
+
+#slide1{
+   background:url('../../images/main_sm_1.jpg')top center no-repeat;
+}
+#slide2{
+   background:url('../../images/main_sm_2.jpg')top center no-repeat;
+}
+#slide3{
+   background:url('../../images/main_sm_3.jpg')top center no-repeat;
+}
+#slide4{
+   background:url('../../images/main_sm_4.jpg')top center no-repeat;
+}
+
+#myCarousel1 .item{
+   height: 281px;
+}
+
+#slide5{
+   background:url('../../images/carosel_sm_1.jpg') top center no-repeat;
+}
+#slide6{
+   background:url('../../images/carosel_sm_2.jpg')top center no-repeat;
+}
+#slide7{
+   background:url('../../images/carosel_sm_3.jpg')top center no-repeat;
+}
+#slide8{
+   background:url('../../images/carosel_sm_4.jpg')top center no-repeat;
+}
+#slide9{
+   background:url('../../images/carosel_sm_5.jpg')top center no-repeat;
+}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	#myCarousel .item{
+   height: 400px;
+}
+   
+#slide1{
+   background:url('../../images/main_lg_1.jpg')top center no-repeat;
+}
+#slide2{
+   background:url('../../images/main_lg_2.jpg')top center no-repeat;
+}
+#slide3{
+   background:url('../../images/main_lg_3.jpg')top center no-repeat;
+}
+#slide4{
+   background:url('../../images/main_lg_4.jpg')top center no-repeat;
+}
+
+
+#myCarousel1 .item{
+   height: 400px;
+}
+
+#slide5{
+   background:url('../../images/carosel_lg_1.jpg') top center no-repeat;
+}
+#slide6{
+   background:url('../../images/carosel_lg_2.jpg')top center no-repeat;
+}
+#slide7{
+   background:url('../../images/carosel_lg_3.jpg')top center no-repeat;
+}
+#slide8{
+   background:url('../../images/carosel_lg_4.jpg')top center no-repeat;
+}
+#slide9{
+   background:url('../../images/carosel_lg_5.jpg')top center no-repeat;
+}
+}
