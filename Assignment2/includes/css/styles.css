@@ -13,6 +13,9 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
+.unstyled li{
+   list-style: none;
+}
 .well .col-sm-7{
    font-size: 16px;
 }
