@@ -13,9 +13,29 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
-
-
-
+.well .col-sm-7{
+   font-size: 16px;
+}
+.well .col-sm-7  .well
+{
+   border-color:BLACK; color:BLACK
+}
+#icons{
+   text-align: center;
+}
+#pick_date,#pick_destination,#pick_style,#europe {
+   text-align:center;
+}
+.H1-title{
+    text-align:center;
+}
+p{
+   text-align: justify-all;
+}
+footer{
+   background-color: BLACK;
+   font-size: 16px;
+}
 /* --------------------------------------
    Typography
    -------------------------------------- */
